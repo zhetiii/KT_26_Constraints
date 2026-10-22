@@ -17,4 +17,5 @@
 <img width="902" height="394" alt="изображение" src="https://github.com/user-attachments/assets/89b70d26-abf0-47e2-ad11-2164f3f9177c" />
 
 # А также мой результат с ошибкой:
-<img width="1919" height="1144" alt="изображение" src="https://github.com/user-attachments/assets/7b738f9b-918e-4513-b618-7c79d6120a34" />
+<img width="1919" height="1142" alt="изображение" src="https://github.com/user-attachments/assets/fea4ab2c-87a3-4f78-81e3-44fba4522f28" />
+
