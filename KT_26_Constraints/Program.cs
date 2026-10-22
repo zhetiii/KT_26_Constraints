@@ -6,7 +6,6 @@ namespace KT_26_Constraints
     {
         static void Main(string[] args)
         {
-            // --- Демонстрация ReferenceBox<string> с ручным вводом ---
             ReferenceBox<string> refBox = new ReferenceBox<string>();
             Console.WriteLine($"ReferenceBox создан. Пустой? {refBox.IsEmpty}");
 
@@ -19,7 +18,6 @@ namespace KT_26_Constraints
 
             Console.WriteLine();
 
-            // --- Демонстрация ValueBox<int> с ручным вводом ---
             ValueBox<int> valBox = new ValueBox<int>();
             Console.WriteLine($"ValueBox создана. Пустой? {valBox.IsEmpty}");
 
@@ -29,6 +27,8 @@ namespace KT_26_Constraints
 
             Console.WriteLine($"После Set. Пустой? {valBox.IsEmpty}");
             Console.WriteLine($"Значение в ValueBox: {valBox.Get()}");
+            //ReferenceBox<int> invalidRef = new ReferenceBox<int>();
+            //ValueBox<string> invalidVal = new ValueBox<string>();
 
             /*
              * Демонстрация (ошибки компиляции):
